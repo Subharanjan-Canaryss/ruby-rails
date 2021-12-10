@@ -30,5 +30,5 @@ jobs:
           file: Dockerfile
           push: true
           tags: |
-            ghcr.io/CanarysPlayground/ruby-rails:latest
-            ghcr.io/CanarysPlayground/ruby-rails:${{ steps.date.outputs.date }}.${{ github.run_number }}
+            ghcr.io/canarysplayground/ruby-rails:latest
+            ghcr.io/canarysplayground/ruby-rails:${{ steps.date.outputs.date }}.${{ github.run_number }}
